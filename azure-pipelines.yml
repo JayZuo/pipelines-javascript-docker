@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  dockerRegistryServiceConnection: 'JayTestACRwWI'
+  dockerRegistryServiceConnection: 'ManualACRSCwWI'
   imageRepository: 'jayzuopipelinesjavascriptdocker'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
